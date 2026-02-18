@@ -13,6 +13,8 @@
 | 05 | [构建 ChatGPT Apps 的 15 个经验教训](/series/05-chatgpt-apps-15-lessons.md) | 上下文管理、UI 重构、生产环境、优化迭代 |
 | 06 | [我是如何使用 Claude Code](/series/06-how-i-use-claude-code.md) | 研究→规划→注解循环→实现的工作流程 |
 | 07 | [Claude Code 入门指南：7 年资深工程师心得](/series/07-claude-code-beginner-playbook.md) | 思考优先、CLAUDE.md、上下文管理、Prompts、系统构建 |
+| 08 | [认知债务：AI 时代比技术债务更大的威胁](/series/08-cognitive-debt.md) | AI 时代知识管理的新挑战 |
+| 09 | [如何设计一个 AI Agent 系统](/series/09-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 |
 
 ---
 

@@ -26,7 +26,7 @@
 
 ```
 .
-├── CLAUDE.md                 # 项目配置文件 (重要!)
+├── AGENT.md                  # Agent 配置文件 (重要!)
 ├── series/                   # AI 学习系列文章
 │   ├── 01-ai-usage-guide.md                    # AI 使用八荣八耻
 │   ├── 02-shell-skills-compaction-tips.md     # OpenAI 实战技巧
@@ -34,7 +34,9 @@
 │   ├── 04-eval-skills-guide.md                # Evals 测试指南
 │   ├── 05-chatgpt-apps-15-lessons.md          # 构建 ChatGPT Apps 经验
 │   ├── 06-how-i-use-claude-code.md            # 工作流：研究→规划→实现
-│   └── 07-claude-code-beginner-playbook.md    # 入门指南：7年资深工程师心得
+│   ├── 07-claude-code-beginner-playbook.md    # 入门指南：7年资深工程师心得
+│   ├── 08-cognitive-debt.md                    # 认知债务：AI时代新挑战
+│   └── 09-how-to-design-ai-agent.md           # 如何设计AI Agent系统
 │
 ├── learn/                    # AI Agent 学习脚本（渐进式演进）
 │   ├── v0_bash_agent.sh    # V0: 极简单工具代理
@@ -229,10 +231,12 @@ Agent 通过工具与外界交互：
 | 05 | [构建 ChatGPT Apps 的 15 个经验教训](/series/05-chatgpt-apps-15-lessons.md) | 上下文管理、UI 重构、生产环境 |
 | 06 | [我是如何使用 Claude Code](/series/06-how-i-use-claude-code.md) | 研究→规划→注解循环→实现 |
 | 07 | [Claude Code 入门指南](/series/07-claude-code-beginner-playbook.md) | 7年资深工程师心得 |
+| 08 | [认知债务：AI 时代比技术债务更大的威胁](/series/08-cognitive-debt.md) | AI 时代知识管理新挑战 |
+| 09 | [如何设计一个 AI Agent 系统](/series/09-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 |
 
 ### 其他文档
 
-- `CLAUDE.md` - 项目配置文件（重要!）
+- `AGENT.md` - Agent 配置文件（重要!）
 - `learn/README.md` - 详细的 AI Agent 学习指南
 - `learn/.env` - 环境变量配置
 - `idea/ai-agent.v1.md` - AI Agent v1.0 设计文档
