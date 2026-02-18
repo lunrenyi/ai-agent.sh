@@ -31,7 +31,8 @@
 │   ├── 06-how-i-use-claude-code.md            # Claude Code 工作流
 │   ├── 07-claude-code-beginner-playbook.md    # 入门指南
 │   ├── 08-cognitive-debt.md                  # 认知债务
-│   └── 09-how-to-design-ai-agent.md          # 如何设计 AI Agent 系统
+│   ├── 09-how-to-design-ai-agent.md            # 如何设计 AI Agent 系统
+│   └── 10-building-skill-for-claude.md         # 构建 Claude Skill 指南
 │
 └── idea/                    # 设计文档
     └── ai-agent.v1.md      # AI Agent v1.0 设计

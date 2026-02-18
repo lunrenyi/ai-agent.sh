@@ -15,6 +15,7 @@
 | 07 | [Claude Code 入门指南：7 年资深工程师心得](/series/07-claude-code-beginner-playbook.md) | 思考优先、CLAUDE.md、上下文管理、Prompts、系统构建 |
 | 08 | [认知债务：AI 时代比技术债务更大的威胁](/series/08-cognitive-debt.md) | AI 时代知识管理的新挑战 |
 | 09 | [如何设计一个 AI Agent 系统](/series/09-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 |
+| 10 | [构建 Claude Skill 完整指南](/series/10-building-skill-for-claude.md) | Anthropic 官方 Skill 构建教程 |
 
 ---
 

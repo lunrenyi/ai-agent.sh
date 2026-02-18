@@ -36,7 +36,8 @@
 │   ├── 06-how-i-use-claude-code.md            # 工作流：研究→规划→实现
 │   ├── 07-claude-code-beginner-playbook.md    # 入门指南：7年资深工程师心得
 │   ├── 08-cognitive-debt.md                    # 认知债务：AI时代新挑战
-│   └── 09-how-to-design-ai-agent.md           # 如何设计AI Agent系统
+│   ├── 09-how-to-design-ai-agent.md           # 如何设计AI Agent系统
+│   └── 10-building-skill-for-claude.md          # 构建 Claude Skill 指南
 │
 ├── learn/                    # AI Agent 学习脚本（渐进式演进）
 │   ├── v0_bash_agent.sh    # V0: 极简单工具代理
@@ -233,6 +234,7 @@ Agent 通过工具与外界交互：
 | 07 | [Claude Code 入门指南](/series/07-claude-code-beginner-playbook.md) | 7年资深工程师心得 |
 | 08 | [认知债务：AI 时代比技术债务更大的威胁](/series/08-cognitive-debt.md) | AI 时代知识管理新挑战 |
 | 09 | [如何设计一个 AI Agent 系统](/series/09-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 |
+| 10 | [构建 Claude Skill 完整指南](/series/10-building-skill-for-claude.md) | Anthropic 官方 Skill 构建教程 |
 
 ### 其他文档
 
