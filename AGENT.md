@@ -24,9 +24,9 @@
 │
 ├── series/                  # AI 学习系列文章
 │   ├── 01-ai-usage-guide.md                   # AI 使用八荣八耻
-│   ├── 02-claude-code-beginner-playbook.md    # Claude Code 入门指南
-│   ├── 03-how-i-use-claude-code.md            # 工作流
-│   ├── 04-how-to-design-ai-agent.md            # 如何设计 AI Agent 系统
+│   ├── 02-how-to-design-ai-agent.md            # 如何设计 AI Agent 系统
+│   ├── 03-claude-code-beginner-playbook.md    # Claude Code 入门指南
+│   ├── 04-how-i-use-claude-code.md             # 工作流
 │   ├── 05-building-skill-for-claude.md         # 构建 Claude Skill 指南
 │   ├── 06-shell-skills-compaction-tips.md     # OpenAI 实战技巧
 │   ├── 07-openai-2025-developer-report.md      # 2025 开发者年度报告

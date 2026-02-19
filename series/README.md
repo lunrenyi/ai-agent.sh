@@ -7,9 +7,9 @@
 | 序号 | 标题 | 描述 |
 |:---:|------|------|
 | 01 | [AI 使用八荣八耻](/series/01-ai-usage-guide.md) | AI 时代的正确使用姿势 |
-| 02 | [Claude Code 入门指南：7 年资深工程师心得](/series/02-claude-code-beginner-playbook.md) | 思考优先、CLAUDE.md、上下文管理、Prompts、系统构建 |
-| 03 | [我是如何使用 Claude Code](/series/03-how-i-use-claude-code.md) | 研究→规划→注解循环→实现的工作流程 |
-| 04 | [如何设计一个 AI Agent 系统](/series/04-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 |
+| 02 | [如何设计一个 AI Agent 系统](/series/02-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 |
+| 03 | [Claude Code 入门指南：7 年资深工程师心得](/series/03-claude-code-beginner-playbook.md) | 思考优先、CLAUDE.md、上下文管理、Prompts、系统构建 |
+| 04 | [我是如何使用 Claude Code](/series/04-how-i-use-claude-code.md) | 研究→规划→注解循环→实现的工作流程 |
 | 05 | [构建 Claude Skill 完整指南](/series/05-building-skill-for-claude.md) | Anthropic 官方 Skill 构建教程 |
 | 06 | [Shell + Skills + Compaction 实战技巧](/series/06-shell-skills-compaction-tips.md) | OpenAI 官方长时运行 Agent 技巧 |
 | 07 | [OpenAI 2025 开发者年度报告](/series/07-openai-2025-developer-report.md) | 2025 年平台更新全解析 |
