@@ -23,16 +23,16 @@
 │   └── Sparkle/             # ASCII 表情艺术
 │
 ├── series/                  # AI 学习系列文章
-│   ├── 01-ai-usage-guide.md                    # AI 使用八荣八耻
-│   ├── 02-shell-skills-compaction-tips.md     # OpenAI 实战技巧
-│   ├── 03-openai-2025-developer-report.md    # 2025 开发者年度报告
-│   ├── 04-eval-skills-guide.md                # Evals 测试指南
-│   ├── 05-chatgpt-apps-15-lessons.md          # 构建 ChatGPT Apps 经验
-│   ├── 06-how-i-use-claude-code.md            # Claude Code 工作流
-│   ├── 07-claude-code-beginner-playbook.md    # 入门指南
-│   ├── 08-cognitive-debt.md                  # 认知债务
-│   ├── 09-how-to-design-ai-agent.md            # 如何设计 AI Agent 系统
-│   └── 10-building-skill-for-claude.md         # 构建 Claude Skill 指南
+│   ├── 01-ai-usage-guide.md                   # AI 使用八荣八耻
+│   ├── 02-claude-code-beginner-playbook.md    # Claude Code 入门指南
+│   ├── 03-how-i-use-claude-code.md            # 工作流
+│   ├── 04-how-to-design-ai-agent.md            # 如何设计 AI Agent 系统
+│   ├── 05-building-skill-for-claude.md         # 构建 Claude Skill 指南
+│   ├── 06-shell-skills-compaction-tips.md     # OpenAI 实战技巧
+│   ├── 07-openai-2025-developer-report.md      # 2025 开发者年度报告
+│   ├── 08-chatgpt-apps-15-lessons.md          # 构建 ChatGPT Apps 经验
+│   ├── 09-eval-skills-guide.md                # Evals 测试指南
+│   └── 10-cognitive-debt.md                  # 认知债务
 │
 └── idea/                    # 设计文档
     └── ai-agent.v1.md      # AI Agent v1.0 设计
