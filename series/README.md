@@ -16,6 +16,8 @@
 | 08 | [构建 ChatGPT Apps 的 15 个经验教训](/series/08-chatgpt-apps-15-lessons.md) | 上下文管理、UI 重构、生产环境、优化迭代 |
 | 09 | [Evals 系统化测试 Agent Skills 指南](/series/09-eval-skills-guide.md) | 使用 Evals 测试 Skills 的最佳实践 |
 | 10 | [认知债务：AI 时代比技术债务更大的威胁](/series/10-cognitive-debt.md) | AI 时代知识管理的新挑战 |
+| 11 | [Claude Code 创始人访谈：编程正在被"解决"](/series/11-claude-code-founder-interview.md) | YC 圆桌访谈，Boris Cherny 核心洞察 |
+| 12 | [SkillsBench 论文结论：自生成 Skills 毫无用处](/series/12-skillsbench-paper-insights.md) | 系统性验证 Skills 是否有价值 |
 
 ---
 

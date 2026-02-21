@@ -32,7 +32,9 @@
 │   ├── 07-openai-2025-developer-report.md      # 2025 开发者年度报告
 │   ├── 08-chatgpt-apps-15-lessons.md          # 构建 ChatGPT Apps 经验
 │   ├── 09-eval-skills-guide.md                # Evals 测试指南
-│   └── 10-cognitive-debt.md                  # 认知债务
+│   ├── 10-cognitive-debt.md                  # 认知债务
+│   ├── 11-claude-code-founder-interview.md   # Claude Code 创始人访谈
+│   └── 12-skillsbench-paper-insights.md      # SkillsBench 论文结论
 │
 └── idea/                    # 设计文档
     └── ai-agent.v1.md      # AI Agent v1.0 设计
