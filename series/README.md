@@ -18,6 +18,8 @@
 | 10 | [认知债务：AI 时代比技术债务更大的威胁](/series/10-cognitive-debt.md) | AI 时代知识管理的新挑战 |
 | 11 | [Claude Code 创始人访谈：编程正在被"解决"](/series/11-claude-code-founder-interview.md) | YC 圆桌访谈，Boris Cherny 核心洞察 |
 | 12 | [SkillsBench 论文结论：自生成 Skills 毫无用处](/series/12-skillsbench-paper-insights.md) | 系统性验证 Skills 是否有价值 |
+| 13 | [Anthropic 披露三大 AI 实验室蒸馏攻击](/series/13-detecting-distillation-attacks.md) | 24,000 账户、1,600 万次交互、应对措施 |
+| 14 | [CLAUDE.md 最佳实践完整指南](/series/14-claude-md-best-practices.md) | 官方文档 + 社区经验整合 |
 
 ---
 
