@@ -26,7 +26,7 @@
 
 ```
 .
-├── AGENT.md                  # Agent 配置文件 (重要!)
+├── CLAUDE.md                  # Claude 项目配置文件 (重要!)
 ├── claude-code-quick-start.md # Claude Code 快速入门
 ├── claude_md_experience/     # Claude Code 使用经验收集
 │   └── ...
@@ -256,7 +256,7 @@ Agent 通过工具与外界交互：
 
 ### 其他文档
 
-- `AGENT.md` - Agent 配置文件（重要!）
+- `CLAUDE.md` - Claude 项目配置文件（重要!）
 - `learn/README.md` - 详细的 AI Agent 学习指南
 - `learn/.env` - 环境变量配置
 - `idea/ai-agent.v1.md` - AI Agent v1.0 设计文档
