@@ -126,3 +126,4 @@
 - [Skills 文档](https://platform.openai.com/docs/guides/tools-skills)
 - [Shell 文档](https://platform.openai.com/docs/guides/tools-shell)
 - [压缩文档](https://platform.openai.com/docs/guides/context-management)
+- [OpenAI 智能体工程指南：10 条实战技巧和 3 种构建模式](https://x.com/dotey/status/2022074016656191809)

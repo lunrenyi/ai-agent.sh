@@ -14,6 +14,9 @@
 | 06 | [Shell + Skills + Compaction 实战技巧](/series/06-shell-skills-compaction-tips.md) | OpenAI 官方长时运行 Agent 技巧 |
 | 07 | [Evals 系统化测试 Agent Skills 指南](/series/07-eval-skills-guide.md) | 使用 Evals 测试 Skills 的最佳实践 |
 | 08 | [CLAUDE.md 最佳实践完整指南](/series/08-claude-md-best-practices.md) | 官方文档 + 社区经验整合 |
+| 09 | [Dax Raad：AI 生产力的残酷真相](/series/09-ai-productivity-critique.md) | 六条反直觉观点 + 学术研究数据支撑 |
+| 10 | [Claude Code Agent Teams 完整指南](/series/10-claude-code-agent-teams.md) | 多智能体协作实战手册 |
+| 11 | [tmux 完全指南：让多个 Claude Code Agent 同时工作](/series/11-tmux-complete-guide.md) | 终端多路复用器实战手册 |
 
 ## 新闻/报告系列
 
