@@ -23,6 +23,7 @@
 | 11 | [Dax Raad：AI 生产力的残酷真相](/series/11-ai-productivity-critique.md) | 六条反直觉观点 + 学术研究数据支撑 | 深度思考 |
 | 12 | [Steve Yegge：AI 吸血鬼](/series/12-ai-vampire.md) | AI 正在如何"吸取"开发者的生命 | 行业洞察 |
 | 13 | [Steve Yegge：Anthropic 蜂巢思维](/series/13-anthropic-hive-mind.md) | 软件开发的未来是蜂巢思维模式 | 前沿趋势 |
+| 14 | [Claude Code 工作原理](/series/14-how-claude-code-works.md) | 官方文档：智能循环、工具系统、会话管理 | 核心原理 |
 
 ## 新闻/报告系列
 

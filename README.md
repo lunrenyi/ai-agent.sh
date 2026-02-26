@@ -44,6 +44,7 @@
 │   ├── 11-ai-productivity-critique.md         # AI 生产力批判
 │   ├── 12-ai-vampire.md                        # AI 吸血鬼
 │   ├── 13-anthropic-hive-mind.md               # Anthropic 蜂巢思维
+│   ├── 14-how-claude-code-works.md            # Claude Code 工作原理
 │   ├── README.md                               # 系列文章索引
 │   └── news/                                   # 新闻/报告系列
 │       ├── 01-openai-2025-developer-report.md
@@ -253,6 +254,7 @@ Agent 通过工具与外界交互：
 | 11 | [AI 生产力的残酷真相](/series/11-ai-productivity-critique.md) | Dax Raad 对 AI 生产力的冷静批判 | 深度思考 |
 | 12 | [AI 吸血鬼](/series/12-ai-vampire.md) | Steve Yegge：AI 正在"吸取"开发者生命 | 行业洞察 |
 | 13 | [Anthropic 蜂巢思维](/series/13-anthropic-hive-mind.md) | Steve Yegge：软件开发的未来 | 前沿趋势 |
+| 14 | [Claude Code 工作原理](/series/14-how-claude-code-works.md) | 官方文档：智能循环、工具系统 | 核心原理 |
 
 ### 新闻/报告系列
 
