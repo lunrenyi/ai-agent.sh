@@ -34,11 +34,16 @@
 │   ├── 01-ai-usage-guide.md                    # AI 使用八荣八耻
 │   ├── 02-how-to-design-ai-agent.md            # 如何设计AI Agent系统
 │   ├── 03-claude-code-beginner-playbook.md     # Claude Code 入门指南
-│   ├── 04-how-i-use-claude-code.md             # 工作流：研究→规划→实现
+│   ├── 04-claude-md-best-practices.md          # CLAUDE.md 最佳实践
 │   ├── 05-building-skill-for-claude.md         # 构建 Claude Skill 指南
 │   ├── 06-shell-skills-compaction-tips.md      # OpenAI 实战技巧
-│   ├── 07-eval-skills-guide.md                 # Evals 测试指南
-│   ├── 08-claude-md-best-practices.md          # CLAUDE.md 最佳实践
+│   ├── 07-extend-claude-code.md                # 扩展 Claude Code
+│   ├── 08-eval-skills-guide.md                 # Evals 测试指南
+│   ├── 09-how-i-use-claude-code.md             # 工作流：研究→规划→实现
+│   ├── 10-claude-code-agent-teams.md           # Agent Teams 团队协作
+│   ├── 11-ai-productivity-critique.md         # AI 生产力批判
+│   ├── 12-ai-vampire.md                        # AI 吸血鬼
+│   ├── 13-anthropic-hive-mind.md               # Anthropic 蜂巢思维
 │   ├── README.md                               # 系列文章索引
 │   └── news/                                   # 新闻/报告系列
 │       ├── 01-openai-2025-developer-report.md
@@ -46,7 +51,8 @@
 │       ├── 03-cognitive-debt.md
 │       ├── 04-claude-code-founder-interview.md
 │       ├── 05-skillsbench-paper-insights.md
-│       └── 06-detecting-distillation-attacks.md
+│       ├── 06-detecting-distillation-attacks.md
+│       └── 07-agentic-engineering-patterns.md
 │
 ├── learn/                    # AI Agent 学习脚本（渐进式演进）
 │   ├── v0_bash_agent.sh    # V0: 极简单工具代理
@@ -230,21 +236,23 @@ Agent 通过工具与外界交互：
 
 ## 学习资源
 
-### 知识文章系列
+### 知识文章系列（推荐学习路径）
 
-| 序号 | 标题 | 核心要点 |
-|:---:|------|----------|
-| 01 | [AI 使用八荣八耻](/series/01-ai-usage-guide.md) | AI 时代的正确使用姿势 |
-| 02 | [如何设计一个 AI Agent 系统](/series/02-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 |
-| 03 | [Claude Code 入门指南](/series/03-claude-code-beginner-playbook.md) | 7年资深工程师心得 |
-| 04 | [我是如何使用 Claude Code](/series/04-how-i-use-claude-code.md) | 研究→规划→注解循环→实现 |
-| 05 | [构建 Claude Skill 完整指南](/series/05-building-skill-for-claude.md) | Anthropic 官方 Skill 构建教程 |
-| 06 | [Shell + Skills + Compaction 实战技巧](/series/06-shell-skills-compaction-tips.md) | OpenAI 官方长时运行 Agent 技巧 |
-| 07 | [Evals 系统化测试 Agent Skills 指南](/series/07-eval-skills-guide.md) | 使用 Evals 测试 Skills 的最佳实践 |
-| 08 | [CLAUDE.md 最佳实践完整指南](/series/08-claude-md-best-practices.md) | 官方文档 + 社区经验整合 |
-| 09 | [AI 生产力的残酷真相](/series/09-ai-productivity-critique.md) | Dax Raad 对 AI 生产力的冷静批判 |
-| 10 | [Claude Code Agent Teams 完整指南](/series/10-claude-code-agent-teams.md) | 多智能体协作实战手册 |
-| 11 | [TMux 完全指南](/series/11-tmux-complete-guide.md) | 终端多路复用，让多个 Claude Code Agent 并行工作 |
+| 序号 | 标题 | 核心要点 | 阶段 |
+|:---:|------|----------|------|
+| 01 | [AI 使用八荣八耻](/series/01-ai-usage-guide.md) | AI 时代的正确使用姿势 | 入门 |
+| 02 | [如何设计一个 AI Agent 系统](/series/02-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 | 基础理论 |
+| 03 | [Claude Code 入门指南](/series/03-claude-code-beginner-playbook.md) | 7年资深工程师心得 | 工具入门 |
+| 04 | [CLAUDE.md 最佳实践](/series/04-claude-md-best-practices.md) | 官方文档 + 社区经验整合 | 项目配置 |
+| 05 | [构建 Claude Skill 完整指南](/series/05-building-skill-for-claude.md) | Anthropic 官方 Skill 构建教程 | 技能构建 |
+| 06 | [Shell + Skills + Compaction 实战技巧](/series/06-shell-skills-compaction-tips.md) | OpenAI 官方长时运行 Agent 技巧 | 效率提升 |
+| 07 | [扩展 Claude Code](/series/07-extend-claude-code.md) | MCP 服务器、第三方集成 | 进阶扩展 |
+| 08 | [Evals 系统化测试指南](/series/08-eval-skills-guide.md) | 使用 Evals 测试 Skills | 高级技能 |
+| 09 | [我是如何使用 Claude Code](/series/09-how-i-use-claude-code.md) | 研究→规划→注解循环→实现 | 实践参考 |
+| 10 | [Claude Code Agent Teams 完整指南](/series/10-claude-code-agent-teams.md) | 多智能体协作实战手册 | 团队协作 |
+| 11 | [AI 生产力的残酷真相](/series/11-ai-productivity-critique.md) | Dax Raad 对 AI 生产力的冷静批判 | 深度思考 |
+| 12 | [AI 吸血鬼](/series/12-ai-vampire.md) | Steve Yegge：AI 正在"吸取"开发者生命 | 行业洞察 |
+| 13 | [Anthropic 蜂巢思维](/series/13-anthropic-hive-mind.md) | Steve Yegge：软件开发的未来 | 前沿趋势 |
 
 ### 新闻/报告系列
 
@@ -256,6 +264,7 @@ Agent 通过工具与外界交互：
 | 04 | [Claude Code 创始人访谈：编程正在被"解决"](/series/news/04-claude-code-founder-interview.md) | YC 圆桌访谈，Boris Cherny 核心洞察 |
 | 05 | [SkillsBench 论文结论：自生成 Skills 毫无用处](/series/news/05-skillsbench-paper-insights.md) | 系统性验证 Skills 是否有价值 |
 | 06 | [Anthropic 披露三大 AI 实验室蒸馏攻击](/series/news/06-detecting-distillation-attacks.md) | 24,000 账户、1,600 万次交互、应对措施 |
+| 07 | [Simon Willison：智能体工程模式](/series/news/07-agentic-engineering-patterns.md) | 编码智能体的工程实践模式 |
 
 ### 其他文档
 

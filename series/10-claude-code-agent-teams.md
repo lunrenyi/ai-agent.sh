@@ -1,14 +1,12 @@
 # Claude Code Agent Teams 完整指南
 
-> 多智能体协作实战手册
+> [多智能体协作实战手册](https://code.claude.com/docs/en/agent-teams)
 
 ---
 
 ## 概述
 
 Agent Teams 是 Claude Code 的**实验性功能**，用于协调多个 Claude 实例在同一个项目中协同工作。与单智能体串行模式不同，它引入了真正的协作机制：多个 AI 可以并行工作、互相通信、共享任务进度，甚至通过「对抗式讨论」验证判断。
-
-Agent Teams 与 [Subagents](/docs/en/sub-agents) 不同：Subagents 在单个会话中运行，只能向主智能体汇报结果；而 Agent Teams 中的每个队友都是独立的 Claude 实例，可以直接相互通信、协调工作。
 
 > **注意**：Agent Teams 当前存在一些[已知限制](#限制说明)，包括会话恢复、任务协调和关闭行为等方面。
 
@@ -381,14 +379,4 @@ Agent Teams 是当前自然语言多智能体编排中较为优雅的实现。�
 
 ---
 
-## 下一步
-
-探索相关的并行工作和委托方法：
-
-- **轻量级委托**：[Subagents](/docs/en/sub-agents) 为研究或验证在会话中生成辅助智能体，适合不需要智能体间协调的任务
-- **手动并行会话**：[Git worktrees](/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees) 让用户自己运行多个 Claude Code 会话，无需自动化团队协调
-- **对比方法**：查看 [Subagent vs Agent Team](/docs/en/features-overview#compare-similar-features) 并排对比
-
----
-
-*来源：Claude Code 官方文档 + 微信读书社区文章*
+*来源：Claude Code 官方文档*
