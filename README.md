@@ -255,6 +255,7 @@ Agent 通过工具与外界交互：
 | 12 | [AI 吸血鬼](/series/12-ai-vampire.md) | Steve Yegge：AI 正在"吸取"开发者生命 | 行业洞察 |
 | 13 | [Anthropic 蜂巢思维](/series/13-anthropic-hive-mind.md) | Steve Yegge：软件开发的未来 | 前沿趋势 |
 | 14 | [Claude Code 工作原理](/series/14-how-claude-code-works.md) | 官方文档：智能循环、工具系统 | 核心原理 |
+| 15 | [AI Agent 指导术：从「不会问」到「问得好」](/series/15-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 能力提升 |
 
 ### 新闻/报告系列
 

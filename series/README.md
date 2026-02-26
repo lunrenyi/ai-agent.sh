@@ -24,6 +24,8 @@
 | 12 | [Steve Yegge：AI 吸血鬼](/series/12-ai-vampire.md) | AI 正在如何"吸取"开发者的生命 | 行业洞察 |
 | 13 | [Steve Yegge：Anthropic 蜂巢思维](/series/13-anthropic-hive-mind.md) | 软件开发的未来是蜂巢思维模式 | 前沿趋势 |
 | 14 | [Claude Code 工作原理](/series/14-how-claude-code-works.md) | 官方文档：智能循环、工具系统、会话管理 | 核心原理 |
+| 15 | [AI Agent 指导术：从「不会问」到「问得好」](/series/15-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 能力提升 |
+| 16 | [OpenClaw 工具与技能完全指南](/series/16-openclaw-tools-skills-guide.md) | 25 个工具 + 53 个技能详解，配置方案与自动化实践 | 进阶扩展 |
 
 ## 新闻/报告系列
 
