@@ -26,6 +26,7 @@
 | 14 | [Claude Code 工作原理](/series/14-how-claude-code-works.md) | 官方文档：智能循环、工具系统、会话管理 | 核心原理 |
 | 15 | [AI Agent 指导术：从「不会问」到「问得好」](/series/15-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 能力提升 |
 | 16 | [OpenClaw 工具与技能完全指南](/series/16-openclaw-tools-skills-guide.md) | 25 个工具 + 53 个技能详解，配置方案与自动化实践 | 进阶扩展 |
+| 17 | [Claude Code 内存管理完全指南](/series/17-claude-code-memory-management.md) | 自动记忆、CLAUDE.md、模块化规则、组织级内存管理 | 项目配置 |
 
 
 ### 贡献指南

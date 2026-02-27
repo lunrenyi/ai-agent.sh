@@ -13,3 +13,4 @@
 | 05 | [SkillsBench 论文结论：自生成 Skills 毫无用处](/news/05-skillsbench-paper-insights.md) | 系统性验证 Skills 是否有价值 |
 | 06 | [Anthropic 披露三大 AI 实验室蒸馏攻击](/news/06-detecting-distillation-attacks.md) | 24,000 账户、1,600 万次交互、应对措施 |
 | 07 | [Simon Willison：智能体工程模式](/news/07-agentic-engineering-patterns.md) | 编码智能体的工程实践模式 |
+| 08 | [生成式人工智能与版权法](/news/08-generative-ai-copyright-law.md) | AI 训练与生成内容的版权争议与立法动态 |
