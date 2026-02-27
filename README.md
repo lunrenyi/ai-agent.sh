@@ -29,8 +29,9 @@
 ├── CLAUDE.md                  # Claude 项目配置文件 (重要!)
 ├── claude-code-quick-start.md # Claude Code 快速入门
 ├── claude_md_experience/     # Claude Code 使用经验收集
-│   └── ...
-├── series/                   # AI 学习系列文章 + 新闻
+│   ├── cn.md
+│   └── en.md
+├── series/                   # AI 学习系列文章
 │   ├── 01-ai-usage-guide.md                    # AI 使用八荣八耻
 │   ├── 02-how-to-design-ai-agent.md            # 如何设计AI Agent系统
 │   ├── 03-claude-code-beginner-playbook.md     # Claude Code 入门指南
@@ -41,19 +42,23 @@
 │   ├── 08-eval-skills-guide.md                 # Evals 测试指南
 │   ├── 09-how-i-use-claude-code.md             # 工作流：研究→规划→实现
 │   ├── 10-claude-code-agent-teams.md           # Agent Teams 团队协作
-│   ├── 11-ai-productivity-critique.md         # AI 生产力批判
+│   ├── 11-ai-productivity-critique.md          # AI 生产力批判
 │   ├── 12-ai-vampire.md                        # AI 吸血鬼
 │   ├── 13-anthropic-hive-mind.md               # Anthropic 蜂巢思维
-│   ├── 14-how-claude-code-works.md            # Claude Code 工作原理
-│   ├── README.md                               # 系列文章索引
-│   └── news/                                   # 新闻/报告系列
-│       ├── 01-openai-2025-developer-report.md
-│       ├── 02-chatgpt-apps-15-lessons.md
-│       ├── 03-cognitive-debt.md
-│       ├── 04-claude-code-founder-interview.md
-│       ├── 05-skillsbench-paper-insights.md
-│       ├── 06-detecting-distillation-attacks.md
-│       └── 07-agentic-engineering-patterns.md
+│   ├── 14-how-claude-code-works.md             # Claude Code 工作原理
+│   ├── 15-ai-agent-guidance.md                 # AI Agent 指导术
+│   ├── 16-openclaw-tools-skills-guide.md      # OpenClaw 工具技能指南
+│   └── README.md                               # 系列文章索引
+│
+├── news/                     # 新闻/报告系列
+│   ├── 01-openai-2025-developer-report.md
+│   ├── 02-chatgpt-apps-15-lessons.md
+│   ├── 03-cognitive-debt.md
+│   ├── 04-claude-code-founder-interview.md
+│   ├── 05-skillsbench-paper-insights.md
+│   ├── 06-detecting-distillation-attacks.md
+│   ├── 07-agentic-engineering-patterns.md
+│   └── README.md
 │
 ├── learn/                    # AI Agent 学习脚本（渐进式演进）
 │   ├── v0_bash_agent.sh    # V0: 极简单工具代理
@@ -256,18 +261,7 @@ Agent 通过工具与外界交互：
 | 13 | [Anthropic 蜂巢思维](/series/13-anthropic-hive-mind.md) | Steve Yegge：软件开发的未来 | 前沿趋势 |
 | 14 | [Claude Code 工作原理](/series/14-how-claude-code-works.md) | 官方文档：智能循环、工具系统 | 核心原理 |
 | 15 | [AI Agent 指导术：从「不会问」到「问得好」](/series/15-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 能力提升 |
-
-### 新闻/报告系列
-
-| 序号 | 标题 | 核心要点 |
-|:---:|------|----------|
-| 01 | [OpenAI 2025 开发者年度报告](/series/news/01-openai-2025-developer-report.md) | 2025 年平台更新全解析 |
-| 02 | [构建 ChatGPT Apps 的 15 个经验教训](/series/news/02-chatgpt-apps-15-lessons.md) | 上下文管理、UI 重构、生产环境 |
-| 03 | [认知债务：AI 时代比技术债务更大的威胁](/series/news/03-cognitive-debt.md) | AI 时代知识管理新挑战 |
-| 04 | [Claude Code 创始人访谈：编程正在被"解决"](/series/news/04-claude-code-founder-interview.md) | YC 圆桌访谈，Boris Cherny 核心洞察 |
-| 05 | [SkillsBench 论文结论：自生成 Skills 毫无用处](/series/news/05-skillsbench-paper-insights.md) | 系统性验证 Skills 是否有价值 |
-| 06 | [Anthropic 披露三大 AI 实验室蒸馏攻击](/series/news/06-detecting-distillation-attacks.md) | 24,000 账户、1,600 万次交互、应对措施 |
-| 07 | [Simon Willison：智能体工程模式](/series/news/07-agentic-engineering-patterns.md) | 编码智能体的工程实践模式 |
+| 16 | [OpenClaw 工具技能指南](/series/16-openclaw-tools-skills-guide.md) | Claude Code 工具技能系统、官方指南解读 | 技能提升 |
 
 ### 其他文档
 

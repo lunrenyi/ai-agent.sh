@@ -27,19 +27,6 @@
 | 15 | [AI Agent 指导术：从「不会问」到「问得好」](/series/15-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 能力提升 |
 | 16 | [OpenClaw 工具与技能完全指南](/series/16-openclaw-tools-skills-guide.md) | 25 个工具 + 53 个技能详解，配置方案与自动化实践 | 进阶扩展 |
 
-## 新闻/报告系列
-
-| 序号 | 标题 | 描述 |
-|:---:|------|------|
-| 01 | [OpenAI 2025 开发者年度报告](/series/news/01-openai-2025-developer-report.md) | 2025 年平台更新全解析 |
-| 02 | [构建 ChatGPT Apps 的 15 个经验教训](/series/news/02-chatgpt-apps-15-lessons.md) | 上下文管理、UI 重构、生产环境、优化迭代 |
-| 03 | [认知债务：AI 时代比技术债务更大的威胁](/series/news/03-cognitive-debt.md) | AI 时代知识管理的新挑战 |
-| 04 | [Claude Code 创始人访谈：编程正在被"解决"](/series/news/04-claude-code-founder-interview.md) | YC 圆桌访谈，Boris Cherny 核心洞察 |
-| 05 | [SkillsBench 论文结论：自生成 Skills 毫无用处](/series/news/05-skillsbench-paper-insights.md) | 系统性验证 Skills 是否有价值 |
-| 06 | [Anthropic 披露三大 AI 实验室蒸馏攻击](/series/news/06-detecting-distillation-attacks.md) | 24,000 账户、1,600 万次交互、应对措施 |
-| 07 | [Simon Willison：智能体工程模式](/series/news/07-agentic-engineering-patterns.md) | 编码智能体的工程实践模式 |
-
----
 
 ### 贡献指南
 

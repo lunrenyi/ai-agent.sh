@@ -14,10 +14,31 @@
 ## 项目结构
 
 ```
-learn/      # 渐进式 AI Agent 脚本 (v0-v4)
-cos/        # 角色化 AI Agent (火花)
-series/     # 学习系列文章 + news/
-idea/       # 设计文档
+.
+├── CLAUDE.md                  # Claude 项目配置文件
+├── claude-code-quick-start.md # Claude Code 快速入门
+├── claude_md_experience/     # Claude Code 使用经验收集
+│   ├── cn.md
+│   └── en.md
+├── learn/                    # AI Agent 学习脚本（渐进式演进）
+│   ├── v0_bash_agent.sh
+│   ├── v1_basic_agent.sh
+│   ├── v2_todo_agent.sh
+│   ├── v3_subagent.sh
+│   ├── v4_skills_agent.sh
+│   └── README.md
+├── series/                   # AI 学习系列文章
+│   ├── 01-xx.md ~ 16-xx.md
+│   └── README.md
+├── news/                     # 新闻/报告系列
+│   ├── 01-xx.md ~ 07-xx.md
+│   └── README.md
+├── cos/                      # 角色化 AI Agent（花火）
+│   ├── sparkle.sh
+│   ├── Sparkle.md
+│   └── Sparkle/
+└── idea/                     # 设计文档
+    └── ai-agent.v1.md
 ```
 
 ---
@@ -45,23 +66,6 @@ idea/       # 设计文档
 - **子代理策略**: 复杂任务使用子代理处理调研和并行分析
 - **完成前验证**: 问自己"资深工程师会批准吗？"——未证明可用前不标记完成
 - **自主修复**: 收到 bug 报告直接修复，不要求手把手指导
-
----
-
-## 代码规范
-
-**语言**: Pure Bash
-
-**四个基本工具**:
-
-| 工具 | 用途 |
-|------|------|
-| bash | 执行 shell 命令 |
-| read_file | 读取文件内容 |
-| write_file | 创建或覆盖文件 |
-| edit_file | 精确修改文件 |
-
-**安全机制**: 路径隔离、危险命令过滤、输出截断 (50KB)、命令超时 (60s)
 
 ---
 
