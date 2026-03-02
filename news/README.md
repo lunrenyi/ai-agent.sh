@@ -14,3 +14,4 @@
 | 06 | [Anthropic 披露三大 AI 实验室蒸馏攻击](/news/06-detecting-distillation-attacks.md) | 24,000 账户、1,600 万次交互、应对措施 |
 | 07 | [Simon Willison：智能体工程模式](/news/07-agentic-engineering-patterns.md) | 编码智能体的工程实践模式 |
 | 08 | [生成式人工智能与版权法](/news/08-generative-ai-copyright-law.md) | AI 训练与生成内容的版权争议与立法动态 |
+| 09 | [OpenAI 与美国战争部达成协议](/news/09-openai-department-of-war-agreement.md) | 背景、争议与行业影响分析 |
