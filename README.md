@@ -48,6 +48,9 @@
 │   ├── 14-how-claude-code-works.md             # Claude Code 工作原理
 │   ├── 15-ai-agent-guidance.md                 # AI Agent 指导术
 │   ├── 16-openclaw-tools-skills-guide.md      # OpenClaw 工具技能指南
+│   ├── 17-claude-code-memory-management.md     # 内存管理指南
+│   ├── 18-ralph-wiggum-autonomous-loop.md      # AI 自主循环编程范式
+│   ├── 19-ai-prompt-design-analysis.md        # Prompt 设计分析
 │   └── README.md                               # 系列文章索引
 │
 ├── news/                     # 新闻/报告系列
@@ -262,6 +265,9 @@ Agent 通过工具与外界交互：
 | 14 | [Claude Code 工作原理](/series/14-how-claude-code-works.md) | 官方文档：智能循环、工具系统 | 核心原理 |
 | 15 | [AI Agent 指导术：从「不会问」到「问得好」](/series/15-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 能力提升 |
 | 16 | [OpenClaw 工具技能指南](/series/16-openclaw-tools-skills-guide.md) | Claude Code 工具技能系统、官方指南解读 | 技能提升 |
+| 17 | [Claude Code 内存管理完全指南](/series/17-claude-code-memory-management.md) | 自动记忆、CLAUDE.md、模块化规则 | 项目配置 |
+| 18 | [Ralph Wiggum：AI 自主循环编程范式](/series/18-ralph-wiggum-autonomous-loop.md) | 从社区 hack 到官方插件的演进史 | 前沿趋势 |
+| 19 | [AI 图像生成 Prompt 设计分析](/series/19-ai-prompt-design-analysis.md) | 结构化「规格说明书」范式 | 能力提升 |
 
 ### 其他文档
 
