@@ -27,6 +27,7 @@
 | 15 | [AI Agent 指导术：从「不会问」到「问得好」](/series/15-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 能力提升 |
 | 16 | [OpenClaw 工具与技能完全指南](/series/16-openclaw-tools-skills-guide.md) | 25 个工具 + 53 个技能详解，配置方案与自动化实践 | 进阶扩展 |
 | 17 | [Claude Code 内存管理完全指南](/series/17-claude-code-memory-management.md) | 自动记忆、CLAUDE.md、模块化规则、组织级内存管理 | 项目配置 |
+| 18 | [Ralph Wiggum：AI 自主循环编程范式](/series/18-ralph-wiggum-autonomous-loop.md) | 从社区 hack 到官方插件的演进史，无人值守的代码迭代闭环 | 前沿趋势 |
 
 
 ### 贡献指南
