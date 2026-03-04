@@ -1,0 +1,91 @@
+用 Claude Code 做内容创作，有一个绑不开的需求：抓网页内容。
+保存一篇好文章、抓取推文数据、批量采集竞品信息，都需要从网页拿数据。但 Claude Code 生态里能用的方案至少有 5 种，从内置工具到云端服务到专业爬虫框架，看起来功能重叠，第一次接触很难选。
+我把这 5 种方案都实测了一遍，这篇文章就是对比结果。每种方案擅长什么、不擅长什么、什么场景该用哪个，看完就清楚了。
+先说一个关键前提：它们不在同一个层次
+这 5 种方案最容易踩的坑，就是拿来直接横向比较。它们其实是不同技术层次的东西，就像螺丝刀、电钻和装修公司，各自解决不同层面的问题。
+① WebFetch（网络层）→ 最轻量的 HTTP 请求工具
+② Playwright MCP（浏览器层）→ 模拟真人操作的真实浏览器
+③ Scrapling（爬虫框架层）→ 自适应解析的 Python 爬虫框架
+④ Firecrawl（云端服务层）→ 网页数据提取的 SaaS 服务
+⑤ Agent-Reach（聚合编排层）→ 11+ 社交平台的统一接入层
+从上到下，层级递增，能力递增，复杂度也递增。互补关系，不是替代关系。
+下面逐个说。
+方案一：WebFetch
+WebFetch 是 Claude Code 自带的内置工具，零配置，开箱即用。工作方式很直接：发一个 HTTP 请求，拿到 HTML，转成 Markdown 返回。
+好处是真的轻。不用装依赖，不用配置，对静态页面几秒钟就有结果。安全性也最高，有内置沙箱，自动 HTTPS 升级，还带 15 分钟缓存。
+问题在于它不执行 JavaScript。现代网页大量依赖 JS 渲染内容，WebFetch 拿到的可能只是一个空壳。不支持登录，不能点击、滚动、填表单，碰到企业级反爬策略也可能被直接拦截。
+简单说，WebFetch 拿到的是「服务器返回的原始文档」，不是「你在浏览器里看到的页面」。
+适合：快速看一个博客文章、抓公开的 API 文档、获取静态页面文本。
+不适合：X/Twitter、SPA 单页应用、任何需要登录的页面。
+我实测了一下，用它抓 X 帖子，直接返回 "JavaScript is not available"，完全拿不到内容。
+方案二：Playwright MCP
+方案二：剧作家 MCP
+Playwright 是微软维护的浏览器自动化框架，通过 MCP 协议接入 Claude Code。它启动一个真实的 Chromium 浏览器，完整加载页面、执行 JS、渲染 DOM。
+和 WebFetch 最大的区别：Playwright 拿到的是你眼睛看到的那个页面。JS 渲染的内容、动态加载的数据，全都有。而且它能交互，点按钮、填表单、模拟滚动、截图，甚至可以在浏览器里走完登录流程。微软维护，社区成熟，文档丰富，数据也全部在本地处理。
+代价是重。每次操作都启动完整的 Chromium，资源消耗不小。一次只能操作一个页面，本质上是测试/自动化工具，不是为批量爬取设计的。如果你只想看一个静态博客写了什么，上 Playwright 确实有点大材小用。
+适合：JS 渲染页面（SPA、React/Vue 应用）、需要登录的内容、需要交互操作、截图。
+不适合：大规模批量爬取、高频率抓取。
+同样的 X 帖子测试，Playwright 完整拿到了全文、作者信息、互动数据（回复/转发/点赞/书签/浏览量）、图片链接。未登录状态就能抓取 Article 类型帖子。
+方案三：Scrapling
+Scrapling 是一个 Python 爬虫框架，GitHub 20.6K stars，92% 测试覆盖率。和前两个不同，它不只是「发请求拿内容」，而是一套完整的爬虫工程体系。
+它提供三种 Fetcher 模式可以切换：普通 HTTP 请求（Fetcher，类似 WebFetch），反反爬模式（StealthyFetcher，内置绕过 Cloudflare），浏览器渲染（DynamicFetcher，类似 Playwright）。
+Scrapling 最值得说的特性是自适应解析。做过爬虫的都知道，网站一改版，选择器就失效，得手动更新。Scrapling 用相似度算法自动重新定位元素，DOM 结构变了也能找到对应内容。对于长期运行的爬虫任务，这个能力非常实用。
+性能方面，官方数据是解析速度比 BeautifulSoup 快 400-600 倍。v0.4 还引入了 Spider 框架，类 Scrapy API，支持异步并发、断点续爬、流式处理。
+但门槛也不低：需要 Python 3.10+ 环境，学习曲线比前两个陡很多，也不适合交互场景。如果你只是偶尔抓一个页面，Scrapling 有点杀鸡用牛刀。它的价值在长期的、批量的、需要应对反爬的数据采集任务。
+它也内置了 MCP Server，可以直接在 Claude Code 中调用。
+方案四：Firecrawl
+Firecrawl 走的是完全不同的路线：云端 SaaS。YC 孵化，$14.5M A 轮，GitHub 69K+ stars，35 万+开发者在用。
+你给它一个 URL，它在云端完成所有脏活（浏览器渲染、反爬绕过、内容清洗、结构化提取），直接返回干净的 Markdown 或结构化 JSON。除了单页抓取，还支持全站爬取、站点地图发现、搜索+抓取一体化。2026 年 1 月推出的 /agent 功能可以智能导航复杂网站，自动搜索和采集数据。
+最大的好处是省心。不用装本地依赖，不用管版本兼容，有官方 MCP Server，npx -y firecrawl-mcp 一行搞定。
+最大的顾虑是隐私。你抓取的所有内容都会经过 Firecrawl 的服务器。抓公开信息（博客、文档、新闻）问题不大，但涉及敏感数据的话，建议走本地方案。另外是费用，有免费额度，但大量使用需要付费。还有服务商依赖的问题，Firecrawl 挂了你就挂了。
+方案五：Agent-Reach
+Agent-Reach 和前四个都不一样。它不是一个独立的爬虫引擎，而是一个「脚手架」，把 X/Twitter、YouTube、B 站、小红书、Reddit、LinkedIn 等 11+ 平台的最佳抓取工具整合在一起，通过 MCP 协议提供统一入口。
+YouTube 用 yt-dlp（148K stars），X 用 xreach CLI（cookie 认证），通用网页用 Jina Reader。每个平台挑最合适的工具来做。本地运行，免费开源。
+问题是依赖链太长。底层挂着 yt-dlp、xreach、Jina Reader、feedparser、gh CLI 这一堆工具，任何一个出问题都会影响整体。项目相对较新（GitHub 4.2K stars，v1.2.0），稳定性还在验证中，多工具版本兼容的维护成本也不低。
+它的价值在「广度」而不是「深度」。不会比 Firecrawl 更擅长抓网页，也不会比 Scrapling 更擅长反爬，但如果你需要同时从多个社交平台采集信息，它能省不少事。
+横向对比
+把几个关键维度放在一起看：
+JS 渲染：WebFetch 不行，Playwright 和 Firecrawl 原生支持，Scrapling 可选，Agent-Reach 取决于底层工具。
+交互能力（点击、填表、滚动）：只有 Playwright 能做，其他四个都不行。
+批量爬取：Scrapling 和 Firecrawl 的核心能力，其他三个不适合。
+反反爬：Scrapling 内置，Firecrawl 云端处理，Playwright 有限支持，WebFetch 和 Agent-Reach 基本没有。
+数据隐私：Firecrawl 的数据经过云端，其他四个都是本地处理。
+配置难度：WebFetch 零配置，Firecrawl 低门槛（API Key），Playwright 和 Agent-Reach 中等，Scrapling 最高。
+费用：只有 Firecrawl 收费（有免费额度），其他都免费。
+实测：抓 X 帖子
+光说不练没用，我拿一条自己的 X 帖子做了测试。
+WebFetch：失败。返回 "JavaScript is not available"。X 是 SPA 应用，内容全靠 JS 渲染，WebFetch 拿到的就是一个空壳。
+Playwright MCP：成功。完整拿到全文、作者、发布时间、互动数据、图片链接。未登录状态就能搞定。
+结论很直接：X 这类现代 SPA 应用，必须用浏览器级别的方案。需要登录才能看的内容，可以在 Playwright 中走登录流程，或者用 Agent-Reach 的 xreach（cookie 认证）。
+选型建议
+别纠结「哪个最好」，按场景选：
+快速看一个静态页面 → WebFetch，零配置最轻量。
+页面需要 JS 渲染或登录 → Playwright MCP，需要真实浏览器。
+需要点击、填表等交互 → Playwright MCP，五个方案里唯一能做的。
+批量提取结构化数据 → Scrapling，这是它的主场。
+网站有 Cloudflare 防护 → Scrapling StealthyFetcher，专门干这个的。
+长期监控网站变化 → Scrapling，自适应解析 + 断点续爬。
+大规模全站爬取 → Firecrawl，云端处理，省心。
+跨多个社交平台采集 → Agent-Reach，11+ 平台统一入口。
+在意数据隐私 → Scrapling 或 Agent-Reach，纯本地。
+不想维护工具链 → Firecrawl，SaaS 零维护。
+我在用的组合
+实际用下来，单选一个是不够的，组合才好用。
+日常组合：WebFetch + Playwright MCP
+大部分场景用 WebFetch 先试，静态页面直接搞定。遇到 JS 渲染或需要交互的再切 Playwright。这两个覆盖了我 80% 的日常需求。
+进阶组合：加上 Scrapling MCP
+如果你有批量采集或长期监控的需求，Scrapling 的批量调度和自适应解析是前两个做不到的。三者都本地运行，数据不外传。
+全覆盖组合：再加 Agent-Reach
+需要同时从 YouTube、B 站、小红书等多平台采集，Agent-Reach 能省不少事。但要有心理准备，依赖链长，维护成本也高。
+几个容易忽略的点
+WebFetch 不等于浏览器。 很多人第一次用 WebFetch 会困惑「为什么拿不到内容」，原因就是它不执行 JS。现在大部分网站都有 JS 渲染的内容，所以 WebFetch 的适用范围比你想象的窄。
+Playwright 不适合批量。 它启动的是完整的 Chromium，一次操作一个页面。拿它做批量爬虫，就像开法拉利送外卖，性能浪费严重。
+Firecrawl 的隐私问题不能忽视。 所有数据经过第三方服务器处理。如果你只是抓公开文章，问题不大。但如果涉及商业敏感信息或用户数据，请选本地方案。
+Agent-Reach 本质是编排层。 它自己不做抓取，底层全靠第三方工具。升级某个依赖可能引发连锁问题，心里要有数。
+最后
+这 5 种方案各自擅长不同层次的问题，没有「最好」的方案，只有「最合适」的方案。
+如果你刚开始用 Claude Code 做网页抓取，我的建议是：先从 WebFetch 开始，不够用了上 Playwright，有批量需求再上 Scrapling。 按需升级，别过度配置。
+附录：
+Scrapling: https://github.com/D4Vinci/Scrapling?tab=readme-ov-file，
+Agent fetch: https://github.com/Panniantong/Agent-Reach 
+Playwright: https://github.com/microsoft/playwright
