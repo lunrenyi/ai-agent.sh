@@ -31,27 +31,31 @@
 ├── claude_md_experience/     # Claude Code 使用经验收集
 │   ├── cn.md
 │   └── en.md
-├── series/                   # AI 学习系列文章
+├── series/                   # AI 学习系列文章 (23篇)
 │   ├── 01-ai-usage-guide.md                    # AI 使用八荣八耻
-│   ├── 02-how-to-design-ai-agent.md            # 如何设计AI Agent系统
-│   ├── 03-claude-code-beginner-playbook.md     # Claude Code 入门指南
-│   ├── 04-claude-md-best-practices.md          # CLAUDE.md 最佳实践
-│   ├── 05-building-skill-for-claude.md         # 构建 Claude Skill 指南
-│   ├── 06-shell-skills-compaction-tips.md      # OpenAI 实战技巧
-│   ├── 07-extend-claude-code.md                # 扩展 Claude Code
-│   ├── 08-eval-skills-guide.md                 # Evals 测试指南
-│   ├── 09-how-i-use-claude-code.md             # 工作流：研究→规划→实现
-│   ├── 10-claude-code-agent-teams.md           # Agent Teams 团队协作
-│   ├── 11-ai-productivity-critique.md          # AI 生产力批判
-│   ├── 12-ai-vampire.md                        # AI 吸血鬼
-│   ├── 13-anthropic-hive-mind.md               # Anthropic 蜂巢思维
-│   ├── 14-how-claude-code-works.md             # Claude Code 工作原理
-│   ├── 15-ai-agent-guidance.md                 # AI Agent 指导术
-│   ├── 16-openclaw-tools-skills-guide.md      # OpenClaw 工具技能指南
-│   ├── 17-claude-code-memory-management.md     # 内存管理指南
-│   ├── 18-ralph-wiggum-autonomous-loop.md      # AI 自主循环编程范式
-│   ├── 19-ai-prompt-design-analysis.md        # Prompt 设计分析
-│   └── README.md                               # 系列文章索引
+│   ├── 02-ai-agent-guidance.md                  # AI Agent 指导术
+│   ├── 03-claude-code-beginner-playbook.md      # Claude Code 入门指南
+│   ├── 04-how-claude-code-works.md              # Claude Code 工作原理
+│   ├── 05-claude-md-best-practices.md           # CLAUDE.md 最佳实践
+│   ├── 06-claude-code-memory-management.md      # 内存管理指南
+│   ├── 07-building-skill-for-claude.md          # 构建 Claude Skill
+│   ├── 08-shell-skills-compaction-tips.md       # Shell + Skills 技巧
+│   ├── 09-extend-claude-code.md                 # 扩展 Claude Code
+│   ├── 10-openclaw-tools-skills-guide.md        # OpenClaw 工具技能
+│   ├── 11-claude-code-web-scraping-tools-comparison.md # 网页抓取对比
+│   ├── 12-eval-skills-guide.md                  # Evals 测试指南
+│   ├── 13-skill-creator-test-measure-refine.md  # Skill 测试改进
+│   ├── 14-skill-creator-complete-reference.md   # Skill Creator 参考
+│   ├── 15-claude-code-agent-teams.md            # Agent Teams 指南
+│   ├── 16-how-i-use-claude-code.md              # 如何使用 Claude Code
+│   ├── 17-how-to-design-ai-agent.md             # 如何设计 AI Agent
+│   ├── 18-ai-productivity-critique.md           # AI 生产力批判
+│   ├── 19-ai-vampire.md                         # AI 吸血鬼
+│   ├── 20-ai-prompt-design-analysis.md          # Prompt 设计分析
+│   ├── 21-anthropic-hive-mind.md                # Anthropic 蜂巢思维
+│   ├── 22-ralph-wiggum-autonomous-loop.md       # AI 自主循环编程
+│   ├── 23-harness-engineering-codex-agent-first-world.md # Codex 代理优先
+│   └── README.md                                # 系列文章索引
 │
 ├── news/                     # 新闻/报告系列
 │   ├── 01-openai-2025-developer-report.md
@@ -249,25 +253,29 @@ Agent 通过工具与外界交互：
 
 | 序号 | 标题 | 核心要点 | 阶段 |
 |:---:|------|----------|------|
-| 01 | [AI 使用八荣八耻](/series/01-ai-usage-guide.md) | AI 时代的正确使用姿势 | 入门 |
-| 02 | [如何设计一个 AI Agent 系统](/series/02-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 | 基础理论 |
-| 03 | [Claude Code 入门指南](/series/03-claude-code-beginner-playbook.md) | 7年资深工程师心得 | 工具入门 |
-| 04 | [CLAUDE.md 最佳实践](/series/04-claude-md-best-practices.md) | 官方文档 + 社区经验整合 | 项目配置 |
-| 05 | [构建 Claude Skill 完整指南](/series/05-building-skill-for-claude.md) | Anthropic 官方 Skill 构建教程 | 技能构建 |
-| 06 | [Shell + Skills + Compaction 实战技巧](/series/06-shell-skills-compaction-tips.md) | OpenAI 官方长时运行 Agent 技巧 | 效率提升 |
-| 07 | [扩展 Claude Code](/series/07-extend-claude-code.md) | MCP 服务器、第三方集成 | 进阶扩展 |
-| 08 | [Evals 系统化测试指南](/series/08-eval-skills-guide.md) | 使用 Evals 测试 Skills | 高级技能 |
-| 09 | [我是如何使用 Claude Code](/series/09-how-i-use-claude-code.md) | 研究→规划→注解循环→实现 | 实践参考 |
-| 10 | [Claude Code Agent Teams 完整指南](/series/10-claude-code-agent-teams.md) | 多智能体协作实战手册 | 团队协作 |
-| 11 | [AI 生产力的残酷真相](/series/11-ai-productivity-critique.md) | Dax Raad 对 AI 生产力的冷静批判 | 深度思考 |
-| 12 | [AI 吸血鬼](/series/12-ai-vampire.md) | Steve Yegge：AI 正在"吸取"开发者生命 | 行业洞察 |
-| 13 | [Anthropic 蜂巢思维](/series/13-anthropic-hive-mind.md) | Steve Yegge：软件开发的未来 | 前沿趋势 |
-| 14 | [Claude Code 工作原理](/series/14-how-claude-code-works.md) | 官方文档：智能循环、工具系统 | 核心原理 |
-| 15 | [AI Agent 指导术：从「不会问」到「问得好」](/series/15-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 能力提升 |
-| 16 | [OpenClaw 工具技能指南](/series/16-openclaw-tools-skills-guide.md) | Claude Code 工具技能系统、官方指南解读 | 技能提升 |
-| 17 | [Claude Code 内存管理完全指南](/series/17-claude-code-memory-management.md) | 自动记忆、CLAUDE.md、模块化规则 | 项目配置 |
-| 18 | [Ralph Wiggum：AI 自主循环编程范式](/series/18-ralph-wiggum-autonomous-loop.md) | 从社区 hack 到官方插件的演进史 | 前沿趋势 |
-| 19 | [AI 图像生成 Prompt 设计分析](/series/19-ai-prompt-design-analysis.md) | 结构化「规格说明书」范式 | 能力提升 |
+| 01 | [AI 使用八荣八耻](/series/01-ai-usage-guide.md) | AI 时代的正确使用姿势 | 认知入门 |
+| 02 | [AI Agent 指导术：从「不会问」到「问得好」](/series/02-ai-agent-guidance.md) | 认知差距、Prompt 框架、迭代优化、人机协作 | 认知入门 |
+| 03 | [Claude Code 入门指南](/series/03-claude-code-beginner-playbook.md) | 思考优先、CLAUDE.md、上下文管理 | 工具入门 |
+| 04 | [Claude Code 工作原理](/series/04-how-claude-code-works.md) | 智能循环、工具系统、会话管理 | 核心原理 |
+| 05 | [CLAUDE.md 最佳实践完整指南](/series/05-claude-md-best-practices.md) | 官方文档 + 社区经验整合 | 项目配置 |
+| 06 | [Claude Code 内存管理完全指南](/series/06-claude-code-memory-management.md) | 自动记忆、CLAUDE.md、模块化规则 | 项目配置 |
+| 07 | [构建 Claude Skill 完整指南](/series/07-building-skill-for-claude.md) | Anthropic 官方 Skill 构建教程 | 技能构建 |
+| 08 | [Shell + Skills + Compaction 实战技巧](/series/08-shell-skills-compaction-tips.md) | OpenAI 官方长时运行 Agent 技巧 | 效率提升 |
+| 09 | [扩展 Claude Code：超越内置能力](/series/09-extend-claude-code.md) | MCP 服务器、第三方集成 | 进阶扩展 |
+| 10 | [OpenClaw 工具与技能完全指南](/series/10-openclaw-tools-skills-guide.md) | 25 个工具 + 53 个技能详解 | 进阶扩展 |
+| 11 | [Claude Code 网页抓取方案深度对比](/series/11-claude-code-web-scraping-tools-comparison.md) | 5 种方案实测对比 | 进阶扩展 |
+| 12 | [Evals 系统化测试 Agent Skills 指南](/series/12-eval-skills-guide.md) | 使用 Evals 测试 Skills | 高级技能 |
+| 13 | [Skill Creator 最佳实践：测试、衡量与持续改进](/series/13-skill-creator-test-measure-refine.md) | 测试驱动开发、数据衡量指标 | 高级技能 |
+| 14 | [Skill Creator 完整技术参考](/series/14-skill-creator-complete-reference.md) | 技能创建工具链完整文档 | 高级技能 |
+| 15 | [Claude Code Agent Teams 完整指南](/series/15-claude-code-agent-teams.md) | 多智能体协作实战手册 | 团队协作 |
+| 16 | [我是如何使用 Claude Code](/series/16-how-i-use-claude-code.md) | 研究→规划→注解循环→实现 | 实践参考 |
+| 17 | [如何设计一个 AI Agent 系统](/series/17-how-to-design-ai-agent.md) | 淘宝技术团队深度好文 | 基础理论 |
+| 18 | [Dax Raad：AI 生产力的残酷真相](/series/18-ai-productivity-critique.md) | 六条反直觉观点 + 学术研究数据 | 深度思考 |
+| 19 | [Steve Yegge：AI 吸血鬼](/series/19-ai-vampire.md) | AI 正在"吸取"开发者的生命 | 行业洞察 |
+| 20 | [AI 图像生成 Prompt 设计分析](/series/20-ai-prompt-design-analysis.md) | 结构化「规格说明书」范式 | 能力提升 |
+| 21 | [Steve Yegge：Anthropic 蜂巢思维](/series/21-anthropic-hive-mind.md) | 软件开发的未来是蜂巢思维模式 | 前沿趋势 |
+| 22 | [Ralph Wiggum：AI 自主循环编程范式](/series/22-ralph-wiggum-autonomous-loop.md) | 从社区 hack 到官方插件的演进史 | 前沿趋势 |
+| 23 | [Harness Engineering：Codex 代理优先世界](/series/23-harness-engineering-codex-agent-first-world.md) | OpenAI 0 行手动代码实验 | 前沿趋势 |
 
 ### 其他文档
 
