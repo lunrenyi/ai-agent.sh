@@ -33,6 +33,8 @@
 | 21 | [Steve Yegge：Anthropic 蜂巢思维](/series/21-anthropic-hive-mind.md) | 软件开发的未来是蜂巢思维模式 | 前沿趋势 |
 | 22 | [Ralph Wiggum：AI 自主循环编程范式](/series/22-ralph-wiggum-autonomous-loop.md) | 从社区 hack 到官方插件的演进史，无人值守的代码迭代闭环 | 前沿趋势 |
 | 23 | [Harness Engineering：Codex 代理优先世界](/series/23-harness-engineering-codex-agent-first-world.md) | OpenAI 0 行手动代码实验：5 个月构建百万行代码的实践经验 | 前沿趋势 |
+| 24 | [Claude Code 沙箱隔离完全指南](/series/24-claude-code-sandbox.md) | 文件系统隔离、网络隔离、操作系统级别强制执行、安全配置与最佳实践 | 核心原理 |
+| 25 | [5 分钟上手 Claude Code 沙箱隔离](/series/25-claude-code-sandbox-quick-start.md) | 从普通用户角度：为什么开、怎么开、有什么影响、常见问题 | 工具入门 |
 
 
 ### 贡献指南
