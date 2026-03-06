@@ -27,8 +27,10 @@
 │   ├── v3_subagent.sh
 │   ├── v4_skills_agent.sh
 │   └── README.md
-├── series/                   # AI 学习系列文章
-│   ├── 01-xx.md ~ 16-xx.md
+├── series/                   # AI 学习系列文章 (26篇)
+│   ├── 01-beginner/          # 入门阶段 (5篇)
+│   ├── 02-intermediate/      # 进阶阶段 (11篇)
+│   ├── 03-advanced/         # 高级阶段 (10篇)
 │   └── README.md
 ├── news/                     # 新闻/报告系列
 │   ├── 01-xx.md ~ 07-xx.md
@@ -91,4 +93,4 @@
 
 详细说明请参考:
 - `@learn/README.md` - 学习指南
-- `@series/08-claude-md-best-practices.md` - CLAUDE.md 最佳实践
+- `@series/02-intermediate/02-claude-md-best-practices.md` - CLAUDE.md 最佳实践
