@@ -4,14 +4,14 @@
 
 ## 学习路径
 
-> 认知入门 → 工具入门 → 核心原理 → 项目配置 → 技能构建 → 效率提升 → 进阶扩展 → 高级技能 → 团队协作 → 实践参考 → 基础理论 → 深度思考 → 前沿趋势
+> 认知入门 → 工具入门 → 核心原理 → 项目配置 → 技能构建 → 效率提升 → 进阶扩展 → 高级技能 → 团队协作 → 实践参考 → 基础理论 → 深度思考 → 前沿趋势 → 工具扩展
 
 ## 目录结构
 
 | 目录 | 阶段 | 篇文章 |
 |:---:|------|:---:|
 | [01-beginner/](/series/01-beginner/) | 入门阶段 | 5 篇 |
-| [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 12 篇 |
+| [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 13 篇 |
 | [03-advanced/](/series/03-advanced/) | 高级阶段 | 10 篇 |
 
 ## 知识文章系列
@@ -42,6 +42,7 @@
 | 10 | [Skill Creator 最佳实践：测试、衡量与持续改进](/series/02-intermediate/10-skill-creator-test-measure-refine.md) | 测试驱动开发、数据衡量指标、迭代改进流程 | 高级技能 |
 | 11 | [Skill Creator 完整技术参考](/series/02-intermediate/11-skill-creator-complete-reference.md) | 技能创建工具链完整文档：架构、设计、评估、优化 | 高级技能 |
 | 12 | [AI 翻译 Agent 工作流：从提示词到自动化实践](/series/02-intermediate/12-ai-translation-agent-workflow.md) | 翻译场景复杂性、三个演进阶段、并行翻译方案、提示词文件演进、Skill 创建迭代 | 技能构建 |
+| 13 | [Google Workspace CLI：给 AI Agent 装上「Google 全家桶」手脚](/series/02-intermediate/13-google-workspace-cli.md) | Google 开源命令行工具，一键操作 Gmail、Drive、Calendar、Sheets、Docs，原生 MCP 支持 | 进阶扩展 |
 
 ### 高级阶段 (advanced)
 
