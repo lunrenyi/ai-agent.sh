@@ -11,7 +11,7 @@
 | 目录 | 阶段 | 篇文章 |
 |:---:|------|:---:|
 | [01-beginner/](/series/01-beginner/) | 入门阶段 | 5 篇 |
-| [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 13 篇 |
+| [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 16 篇 |
 | [03-advanced/](/series/03-advanced/) | 高级阶段 | 10 篇 |
 
 ## 知识文章系列
@@ -43,6 +43,9 @@
 | 11 | [Skill Creator 完整技术参考](/series/02-intermediate/11-skill-creator-complete-reference.md) | 技能创建工具链完整文档：架构、设计、评估、优化 | 高级技能 |
 | 12 | [AI 翻译 Agent 工作流：从提示词到自动化实践](/series/02-intermediate/12-ai-translation-agent-workflow.md) | 翻译场景复杂性、三个演进阶段、并行翻译方案、提示词文件演进、Skill 创建迭代 | 技能构建 |
 | 13 | [Google Workspace CLI：给 AI Agent 装上「Google 全家桶」手脚](/series/02-intermediate/13-google-workspace-cli.md) | Google 开源命令行工具，一键操作 Gmail、Drive、Calendar、Sheets、Docs，原生 MCP 支持 | 进阶扩展 |
+| 14 | [Claude Code 四大扩展模式：从小白到高级用户的进阶指南](/series/02-intermediate/14-claude-code-extensions.md) | Subcommand、Skill、sub-agents、Agent Teams 四大扩展模式详解 | 进阶扩展 |
+| 15 | [编程 Agents 能否通过「清洁室」实现重新许可开源代码？](/series/02-intermediate/15-ai-coding-agents-relicense-open-source.md) | chardet 7.0.0 事件背后的法律与伦理争议，AI 编程与开源许可的碰撞 | 深度思考 |
+| 16 | [Welcome to the Wasteland：连接数千个 Gas Town 的协作网络](/series/02-intermediate/16-welcome-to-the-wasteland.md) | Steve Yegge 介绍 AI 驱动的分布式工作协作新范式，大规模协作的未来 | 前沿趋势 |
 
 ### 高级阶段 (advanced)
 
