@@ -11,8 +11,8 @@
 | 目录 | 阶段 | 篇文章 |
 |:---:|------|:---:|
 | [01-beginner/](/series/01-beginner/) | 入门阶段 | 5 篇 |
-| [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 16 篇 |
-| [03-advanced/](/series/03-advanced/) | 高级阶段 | 10 篇 |
+| [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 17 篇 |
+| [03-advanced/](/series/03-advanced/) | 高级阶段 | 12 篇 |
 
 ## 知识文章系列
 
@@ -46,6 +46,7 @@
 | 14 | [Claude Code 四大扩展模式：从小白到高级用户的进阶指南](/series/02-intermediate/14-claude-code-extensions.md) | Subcommand、Skill、sub-agents、Agent Teams 四大扩展模式详解 | 进阶扩展 |
 | 15 | [编程 Agents 能否通过「清洁室」实现重新许可开源代码？](/series/02-intermediate/15-ai-coding-agents-relicense-open-source.md) | chardet 7.0.0 事件背后的法律与伦理争议，AI 编程与开源许可的碰撞 | 深度思考 |
 | 16 | [Welcome to the Wasteland：连接数千个 Gas Town 的协作网络](/series/02-intermediate/16-welcome-to-the-wasteland.md) | Steve Yegge 介绍 AI 驱动的分布式工作协作新范式，大规模协作的未来 | 前沿趋势 |
+| 17 | [编程 Agent 如何重塑工程、产品和设计](/series/02-intermediate/17-coding-agents-reshape-epd.md) | Harrison Chase 分析 AI 时代 EPD 角色变革：评审成为新瓶颈，通才更有价值 | 深度思考 |
 
 ### 高级阶段 (advanced)
 
@@ -61,6 +62,8 @@
 | 08 | [Ralph Wiggum：AI 自主循环编程范式](/series/03-advanced/08-ralph-wiggum-autonomous-loop.md) | 从社区 hack 到官方插件的演进史，无人值守的代码迭代闭环 | 前沿趋势 |
 | 09 | [Harness Engineering：Codex 代理优先世界](/series/03-advanced/09-harness-engineering-codex-agent-first-world.md) | OpenAI 0 行手动代码实验：5 个月构建百万行代码的实践经验 | 前沿趋势 |
 | 10 | [Claude Code 沙箱隔离完全指南](/series/03-advanced/10-claude-code-sandbox.md) | 文件系统隔离、网络隔离、操作系统级别强制执行、安全配置与最佳实践 | 核心原理 |
+| 11 | [Harness Engineering：Coding Agent 配置工程实践](/series/03-advanced/11-harness-engineering.md) | HumanLayer 团队经验总结：CLAUDE.md、MCP、Skills、Sub-Agents、Hooks 配置指南 | 前沿趋势 |
+| 12 | [当 AI 写了几乎所有代码，软件工程会怎样？](/series/03-advanced/12-ai-writes-most-code.md) | Gergely Orosz 深度分析：AI 编程拐点、职业重构、机遇与挑战 | 前沿趋势 |
 
 
 ### 贡献指南
