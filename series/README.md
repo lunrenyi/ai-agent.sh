@@ -12,7 +12,7 @@
 |:---:|------|:---:|
 | [01-beginner/](/series/01-beginner/) | 入门阶段 | 5 篇 |
 | [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 17 篇 |
-| [03-advanced/](/series/03-advanced/) | 高级阶段 | 12 篇 |
+| [03-advanced/](/series/03-advanced/) | 高级阶段 | 13 篇 |
 
 ## 知识文章系列
 
@@ -64,6 +64,7 @@
 | 10 | [Claude Code 沙箱隔离完全指南](/series/03-advanced/10-claude-code-sandbox.md) | 文件系统隔离、网络隔离、操作系统级别强制执行、安全配置与最佳实践 | 核心原理 |
 | 11 | [Harness Engineering：Coding Agent 配置工程实践](/series/03-advanced/11-harness-engineering.md) | HumanLayer 团队经验总结：CLAUDE.md、MCP、Skills、Sub-Agents、Hooks 配置指南 | 前沿趋势 |
 | 12 | [当 AI 写了几乎所有代码，软件工程会怎样？](/series/03-advanced/12-ai-writes-most-code.md) | Gergely Orosz 深度分析：AI 编程拐点、职业重构、机遇与挑战 | 前沿趋势 |
+| 13 | [六位思想巨人装进我的系统：CC 多顾问架构实践](/series/03-advanced/13-multi-advisor-system.md) | 把德鲁克、乔布斯、原研哉、芒格、巴菲特、马斯克装进 Claude Code，每次决策先问他们 | 团队协作 |
 
 
 ### 贡献指南
