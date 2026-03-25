@@ -12,7 +12,7 @@
 |:---:|------|:---:|
 | [01-beginner/](/series/01-beginner/) | 入门阶段 | 5 篇 |
 | [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 17 篇 |
-| [03-advanced/](/series/03-advanced/) | 高级阶段 | 13 篇 |
+| [03-advanced/](/series/03-advanced/) | 高级阶段 | 14 篇 |
 
 ## 知识文章系列
 
@@ -65,6 +65,7 @@
 | 11 | [Harness Engineering：Coding Agent 配置工程实践](/series/03-advanced/11-harness-engineering.md) | HumanLayer 团队经验总结：CLAUDE.md、MCP、Skills、Sub-Agents、Hooks 配置指南 | 前沿趋势 |
 | 12 | [当 AI 写了几乎所有代码，软件工程会怎样？](/series/03-advanced/12-ai-writes-most-code.md) | Gergely Orosz 深度分析：AI 编程拐点、职业重构、机遇与挑战 | 前沿趋势 |
 | 13 | [六位思想巨人装进我的系统：CC 多顾问架构实践](/series/03-advanced/13-multi-advisor-system.md) | 把德鲁克、乔布斯、原研哉、芒格、巴菲特、马斯克装进 Claude Code，每次决策先问他们 | 团队协作 |
+| 14 | [AI 发展太快跟不上？四象限图帮你做减法](/series/03-advanced/14-ai-learning-quadrant-method.md) | 两根轴判断：离生产力远近 × 保鲜期长短，四象限决策框架 | 深度思考 |
 
 
 ### 贡献指南
