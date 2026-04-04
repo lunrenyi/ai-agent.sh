@@ -11,7 +11,7 @@
 | 目录 | 阶段 | 篇文章 |
 |:---:|------|:---:|
 | [01-beginner/](/series/01-beginner/) | 入门阶段 | 5 篇 |
-| [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 17 篇 |
+| [02-intermediate/](/series/02-intermediate/) | 进阶阶段 | 18 篇 |
 | [03-advanced/](/series/03-advanced/) | 高级阶段 | 14 篇 |
 
 ## 知识文章系列
@@ -47,6 +47,7 @@
 | 15 | [编程 Agents 能否通过「清洁室」实现重新许可开源代码？](/series/02-intermediate/15-ai-coding-agents-relicense-open-source.md) | chardet 7.0.0 事件背后的法律与伦理争议，AI 编程与开源许可的碰撞 | 深度思考 |
 | 16 | [Welcome to the Wasteland：连接数千个 Gas Town 的协作网络](/series/02-intermediate/16-welcome-to-the-wasteland.md) | Steve Yegge 介绍 AI 驱动的分布式工作协作新范式，大规模协作的未来 | 前沿趋势 |
 | 17 | [编程 Agent 如何重塑工程、产品和设计](/series/02-intermediate/17-coding-agents-reshape-epd.md) | Harrison Chase 分析 AI 时代 EPD 角色变革：评审成为新瓶颈，通才更有价值 | 深度思考 |
+| 18 | [信息过载时代，我的漏斗式阅读工作流](/series/02-intermediate/18-funnel式阅读工作流.md) | RSS + FreshRSS + OpenClaw + Lumina，构建个人专属的信息吸收漏斗 | 效率提升 |
 
 ### 高级阶段 (advanced)
 
