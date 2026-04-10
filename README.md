@@ -64,13 +64,6 @@
 │   └── README.md                                # 系列文章索引
 │
 ├── news/                     # 新闻/报告系列
-│   ├── 01-openai-2025-developer-report.md
-│   ├── 02-chatgpt-apps-15-lessons.md
-│   ├── 03-cognitive-debt.md
-│   ├── 04-claude-code-founder-interview.md
-│   ├── 05-skillsbench-paper-insights.md
-│   ├── 06-detecting-distillation-attacks.md
-│   ├── 07-agentic-engineering-patterns.md
 │   └── README.md
 │
 ├── learn/                    # AI Agent 学习脚本（渐进式演进）
