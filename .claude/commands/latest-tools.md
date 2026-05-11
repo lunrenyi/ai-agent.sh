@@ -1,4 +1,4 @@
-配合使用 agent-browser 将以下资讯整理成一份内容翔实、引用可靠的报告，并在当前仓库的 @news/26-04 目录中创建一个新文件保存报告
+配合使用 agent-browser 将以下资讯整理成一份内容翔实、引用可靠的报告，并在当前仓库的 @news/26-05 目录中创建一个新文件保存报告
 1. https://hellogithub.com/periodical 的最新一期月刊
 2. https://ossinsight.io/languages/Rust 中新兴起的 2 个项目
 3. https://ossinsight.io/languages/Go 中新兴起的 2 个项目
